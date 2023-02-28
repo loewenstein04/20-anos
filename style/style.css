@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #25232d;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main#principal-conteudo {
+    width: 100vw;
+    height: 95vh;
+    background: #a8e7ca;
+    border: thin solid #000;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border-radius: 15px;
+}
+
+footer {
+  background: #25232d;
+  color: #fff;
+  text-align: center;
+  height: 5vh;
+  width: 100%;
+}

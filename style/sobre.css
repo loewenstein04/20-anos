@@ -1,0 +1,282 @@
+main#conteudo-secundario{
+    margin-top: 2rem;
+    padding: 1rem;
+    width: 90%;
+    background: #a8e7ca;
+    border: thin solid #000;
+    margin: 0 5%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border-radius: 15px;
+}
+
+header {
+    width: 100%;
+    border-bottom: thin solid black;
+    background: #c91842;
+    display: flex;
+}
+
+header hgroup {
+    width: 15%;
+}
+
+header .titulo1 {
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+header .subtitulo {
+    margin: 0 70px;
+}
+
+header .titulo2 {
+    text-align: end;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+header .imagem-header {
+    height: 110px;
+    width: 140px;
+    margin: 3px 30%;
+    border-radius: 50%;
+}
+
+main h2 {
+    width: 100%;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.program {
+    float: left;
+    text-align: center;
+    font-size: smaller;
+    padding: 1rem;
+    box-shadow: 1px 1px 3px #000;
+    border-radius: 15px;
+    margin-top: 1rem;
+    overflow: hidden;
+}
+
+section {
+    width: 100%;
+}
+
+p {
+    text-align: justify;
+    text-indent: 2rem;
+}
+
+img {
+    width: 100%;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+    background: #fbfee5;
+    border-radius: 15px;
+    overflow: hidden;
+    border: thin solid black;
+    box-shadow: 1px 1px 3px black;
+    margin: 1rem 0;
+}
+
+.card:nth-child(8) {
+    margin-bottom: 0;
+}
+
+.card h3 {
+    margin-bottom: 2rem;
+}
+
+.card img {
+    height: 400px;
+}
+
+.card > div {
+    padding: 2rem;
+    
+}
+
+.card:nth-child(even) img {
+    order: 2;
+}
+
+.btn-btn {
+    display: inline-block;
+    background: #fff;
+    border: 2px solid #000;
+    padding: 0.8rem 1.9rem;
+    border-radius: 15px;
+    color: #000;
+    cursor: pointer;
+    transition: 1s;
+    text-decoration: none;
+    box-shadow: 1px 1px 3px #000;
+}
+
+.btn-btn:hover {
+    scale: 1.01;
+    box-shadow: 1px 1px 5px #000;
+}
+
+.btn {
+    display: inline-block;
+    background: #fff;
+    border: 2px solid #000;
+    padding: 0.8rem 1.9rem;
+    border-radius: 15px;
+    color: #000;
+    margin-top: 2rem;
+    cursor: pointer;
+    transition: 1s;
+    text-decoration: none;
+    box-shadow: 1px 1px 3px #000;
+}
+
+.btn:hover {
+    scale: 1.01;
+    box-shadow: 1px 1px 5px #000;
+}
+
+.codigos {
+    display: none;
+    float: left;
+    text-align: center;
+    font-size: smaller;
+    padding: 1rem;
+    box-shadow: 1px 1px 3px #000;
+    border-radius: 15px;
+    margin-top: 1rem;
+    overflow: hidden;
+}
+
+#opiniao {
+      display: blox;
+    background: #fbfee5;
+    border-radius: 15px;
+    border: thin solid black;
+    box-shadow: 1px 1px 3px black;
+    margin: 1rem 0;
+    padding: 1rem 1rem;
+}
+
+#minhaOpiniao {
+    width: 100%;
+}
+
+#minhaOpiniao > h3 {
+    width: 100%;
+    text-align: center;
+}
+
+#minhaOpiniao > p {
+   margin-top: .5rem;
+}
+
+.formulario {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+#formulario {
+    width: 50%;
+    padding: 1rem;
+    border-radius: 15px;
+    background: #fff;
+    flex-wrap: wrap;
+}
+
+#formulario > h3 {
+    width: 100%;
+    text-align: center;
+}
+
+#formulario > .mb {
+      margin-top: 1rem;
+    margin-bottom: .6rem;
+}
+
+.mb > #inputname {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.mb > #texto {
+    width: 100%;
+    height: 5rem;
+    margin-top: 10px;
+}
+
+#btn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+button {
+    padding: 5px 10px;
+    background: #fff;
+    box-shadow: 1px 1px 3px #000;
+    transition: 0.5s;
+    border: thin solid #000;
+    border-radius: 3px;
+}
+
+button:hover {
+    opacity: 0.8;
+    box-shadow: 3px 3px 5px #000;
+}
+
+#div {
+    margin: 0 auto;
+    width: 50%;
+    margin-top: 3rem;
+    background: #fff;
+    border-radius: 15px;
+    padding: 1rem;
+}
+
+#comentarios {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#comentarios > h5 {
+    width: 100%;
+    text-align: center;
+}
+
+#comentarios > .comentario {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 2rem;
+    border-radius: 15px;
+    margin-top: 1rem;
+    box-shadow: 1px 1px 3px #0ff;
+}
+
+@media(max-width:700px) {
+  .card{
+    display: none;
+  }
+  #formulario {
+    width: 100%;
+  }
+  #div {
+    width: 100%;
+  }
+  .codigos {
+    display: block;
+  }
+}
